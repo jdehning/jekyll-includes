@@ -5,7 +5,7 @@ Rothenburgstraße 44<br />
 12163 Berlin</p>
 <h2>Contact:</h2>
 <p>Telephone: +49 (0) 30 / 120 872 29<br />
-Email: kpapst@gmx.net</p>
+Email: <a href="mailto:kpapst@gmx.net">kpapst@gmx.net</a></p>
 <h2>VAT:</h2>
 <p>VAT Id number according to Sec. 27 a German Value Added Tax Act:<br />
 DE272564301</p>

@@ -1,0 +1,17 @@
+{% if include.image != nil %}
+	{% assign image = site.data.images[include.image] %}
+	{% if image != nil %}
+	<figure id="attachment_{{ include.image }}">
+		{% if include.link != nil %}
+			<a href="{{ include.link }}" class="image fit">
+				<img src="/images/{{ image.url }}" alt="">
+			</a>
+		{% else %}
+			<img src="/images/{{ image.url }}" alt="" class="image fit">
+		{% endif %}
+		<figcaption>
+			{{ image.name }} – von <a href="{{ image.homepage }}" rel="nofollow">{{ image.author }}</a> (<a href="{{ image.origin }}" rel="nofollow">Quelle</a>, <a href="{{ image.license }}" rel="nofollow">Lizenz</a>)
+		</figcaption>
+	</figure>
+	{% endif %}
+{% endif %}

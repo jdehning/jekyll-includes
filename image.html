@@ -1,19 +1,18 @@
-{% if include.image != nil %}
-{% assign image = site.data.images[include.image] %}
-{% if image != nil %}
+{%- if include.image != nil %}
+{%- assign image = site.data.images[include.image] %}
+{%- if image != nil %}
 <figure id="attachment_{{ include.image }}">
-	{% if include.link != nil %}
+	{%- if include.link != nil %}
 	<a href="{{ include.link }}" class="image fit">
 		{% image {{ include.preset | default: "large" }} {{ image.url }} alt="{{ image.name }}" %}
 	</a>
-	{% else %}
+	{%- else %}
 	{% image {{ include.preset | default: "large" }} {{ image.url }} alt="{{ image.name }}" %}
-	{% endif %}
+	{%- endif %}
 	<figcaption>
-		<a href="{{ image.origin }}" class="image_name">{{ image.name }}</a>
-		von
+		<a href="{{ image.origin }}" class="image_name">{{ image.name }}</a> von
 		<a href="{{ image.homepage }}" class="image_author" rel="nofollow">{{ image.author }}</a> (<a href="{{ image.license }}" rel="nofollow">Lizenz</a>)
 	</figcaption>
 </figure>
-{% endif %}
-{% endif %}
+{%- endif %}
+{%- endif %}

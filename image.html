@@ -1,24 +1,19 @@
 {% if include.image != nil %}
-	{% assign image = site.data.images[include.image] %}
-	{% if include.preset != nil %}
-		{% assign preset = include.preset %}
+{% assign image = site.data.images[include.image] %}
+{% if image != nil %}
+<figure id="attachment_{{ include.image }}">
+	{% if include.link != nil %}
+	<a href="{{ include.link }}" class="image fit">
+		{% image {{ include.preset | default: "large" }} {{ image.url }} alt="{{ image.name }}" %}
+	</a>
 	{% else %}
-		{% assign preset = "large" %}
+	{% image {{ include.preset | default: "large" }} {{ image.url }} alt="{{ image.name }}" %}
 	{% endif %}
-	{% if image != nil %}
-	<figure id="attachment_{{ include.image }}">
-		{% if include.link != nil %}
-			<a href="{{ include.link }}" class="image fit">
-				{% image {{ preset }} {{ image.url }} alt="{{ image.name }}" %}
-			</a>
-		{% else %}
-			{% image {{ preset }} {{ image.url }} alt="{{ image.name }}" %}
-		{% endif %}
-		<figcaption>
-			<a href="{{ image.origin }}">{{ image.name }}</a> von
-			<a href="{{ image.homepage }}" rel="nofollow">{{ image.author }}</a>
-			(<a href="{{ image.license }}" rel="nofollow">Lizenz</a>)
-		</figcaption>
-	</figure>
-	{% endif %}
+	<figcaption>
+		<a href="{{ image.origin }}" class="image_name">{{ image.name }}</a>
+		von
+		<a href="{{ image.homepage }}" class="image_author" rel="nofollow">{{ image.author }}</a> (<a href="{{ image.license }}" rel="nofollow">Lizenz</a>)
+	</figcaption>
+</figure>
+{% endif %}
 {% endif %}

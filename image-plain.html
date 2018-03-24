@@ -1,0 +1,12 @@
+{%- if include.image != nil %}
+{%- assign image = site.data.images[include.image] %}
+{%- if image != nil %}
+	{%- if include.link != nil %}
+	<a href="{{ include.link }}" class="image fit">
+		{% image {{ include.preset | default: "large" }} {{ image.url }} alt="{{ image.name }}" %}
+	</a>
+	{%- else %}
+	{% image {{ include.preset | default: "large" }} {{ image.url }} alt="{{ image.name }}" %}
+	{%- endif %}
+{%- endif %}
+{%- endif %}

@@ -1,0 +1,24 @@
+{%- if include.images != nil %}
+{%- assign preset = include.preset | default: "gallery" %}
+<div class="box alt gallery">
+	{% if include.caption %}
+	<div class="row gallery_caption">
+		<div class="12u$">
+			<h4>{{ include.caption }}</h4>
+		</div>
+	</div>
+	{%- endif %}
+	<div class="row uniform">
+		{%- for imageId in include.images %}
+		{%- assign mod3 = forloop.index | modulo: 3 %}
+		{%- assign class = "4u" %}
+		{% if mod3 == 0 %}
+			{%- assign class = "4u$" %}
+		{% endif %}
+		<div class="{{ class }}">
+			<span class="image fit">{% include core/image-plain.html image=imageId preset=preset %}</span>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{%- endif %}

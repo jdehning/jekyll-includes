@@ -4,10 +4,10 @@
 
 {% include core/datenschutz/02-general.html %}
 
+<h2>Datenerfassung auf unserer Website</h2>
+
 {% include core/datenschutz/03-website.html %}
 
-{% if include.affiliate == nil %}
 {% include core/datenschutz/04-advertisement.html %}
-{% endif %}
 
 {% include core/datenschutz/05-other.html %}

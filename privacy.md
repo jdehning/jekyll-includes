@@ -4,10 +4,10 @@
 
 {% include core/privacy/02-general.html %}
 
+<h2>Data collection on our website</h2>
+
 {% include core/privacy/03-website.html %}
 
-{% if include.affiliate == nil %}
 {% include core/privacy/04-advertisement.html %}
-{% endif %}
 
 {% include core/privacy/05-other.html %}

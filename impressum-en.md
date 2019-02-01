@@ -10,7 +10,7 @@ Email: <a href="mailto:kpapst@gmx.net">kpapst@gmx.net</a></p>
 <p>VAT Id number according to Sec. 27 a German Value Added Tax Act:<br />
 DE272564301</p>
 <h2>Responsible for contents acc. to Sec. 55, para. 2 German Federal Broadcasting Agreement (RstV):</h2>
-<p>Kevin Papst, Rothenburgstraße 44, 12163 Berlin</p>
+<p>Kevin Papst, Elfenstraße 27, 81739 München</p>
 <h2>Dispute resolution</h2>
 <p>The European Commission provides a platform for online dispute resolution (OS): <a href="https://ec.europa.eu/consumers/odr" target="_blank">https://ec.europa.eu/consumers/odr</a>.<br /> Please find our email in the impressum/legal notice.</p>
 <p>We do not take part in online dispute resolutions at consumer arbitration boards.</p>

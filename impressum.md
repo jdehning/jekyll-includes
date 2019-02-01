@@ -10,7 +10,7 @@ E-Mail: kpapst@gmx.net</p>
 <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
 DE272564301</p>
 <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
-<p>Kevin Papst, Rothenburgstraße 44, 12163 Berlin</p>
+<p>Kevin Papst, Elfenstraße 27, 81739 München</p>
 <h2>Streitschlichtung</h2>
 <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank">https://ec.europa.eu/consumers/odr</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>

@@ -1,8 +1,8 @@
 <h1>Site Notice</h1>
 <h2>Information provided according to Sec. 5 German Telemedia Act (TMG):</h2>
 <p>Kevin Papst<br />
-Rothenburgstraße 44<br />
-12163 Berlin</p>
+Elfenstraße 27<br />
+81739 München</p>
 <h2>Contact:</h2>
 <p>Telephone: +49 (0) 30 / 120 872 29<br />
 Email: <a href="mailto:kpapst@gmx.net">kpapst@gmx.net</a></p>

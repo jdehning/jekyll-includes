@@ -1,8 +1,8 @@
 <h1>Impressum</h1>
 <h2>Angaben gemäß § 5 TMG:</h2>
 <p>Kevin Papst<br />
-Rothenburgstraße 44<br />
-12163 Berlin</p>
+Elfenstraße 27<br />
+81739 München</p>
 <h2>Kontakt:</h2>
 <p>Telefon: +49 (0) 30 / 120 872 29<br />
 E-Mail: kpapst@gmx.net</p>

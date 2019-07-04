@@ -4,7 +4,7 @@
 Elfenstraße 27<br />
 81739 München</p>
 <h2>Contact:</h2>
-<p>Telephone: +49 (0) 30 / 120 872 29<br />
+<p>Telephone: +49 (0) 89 / 12719092<br />
 Email: <a href="mailto:kpapst@gmx.net">kpapst@gmx.net</a></p>
 <h2>VAT:</h2>
 <p>VAT Id number according to Sec. 27 a German Value Added Tax Act:<br />

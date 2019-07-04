@@ -4,7 +4,7 @@
 Elfenstraße 27<br />
 81739 München</p>
 <h2>Kontakt:</h2>
-<p>Telefon: +49 (0) 30 / 120 872 29<br />
+<p>Telefon: +49 (0) 89 / 12719092<br />
 E-Mail: kpapst@gmx.net</p>
 <h2>Umsatzsteuer:</h2>
 <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
